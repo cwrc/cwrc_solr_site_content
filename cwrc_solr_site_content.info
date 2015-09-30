@@ -1,6 +1,7 @@
-name = cwrc_solr_site_content
+name = CWRC Site SOLR Config
 core = 7.x
-package = Features
+package = CWRC Custom
+version = 7.x-1.0
 dependencies[] = apachesolr
 dependencies[] = apachesolr_search
 dependencies[] = ctools

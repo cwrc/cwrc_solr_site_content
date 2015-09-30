@@ -14,6 +14,7 @@ function cwrc_solr_site_content_default_fe_block_settings() {
 
   $export['apachesolr_search-mlt-001'] = array(
     'cache' => 4,
+    'css_class' => '',
     'custom' => 0,
     'delta' => 'mlt-001',
     'i18n_block_language' => array(),
@@ -23,22 +24,10 @@ function cwrc_solr_site_content_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
+      'de_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-      'zen' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'zen',
+        'theme' => 'de_theme',
         'weight' => 0,
       ),
     ),
@@ -48,6 +37,7 @@ function cwrc_solr_site_content_default_fe_block_settings() {
 
   $export['apachesolr_search-sort'] = array(
     'cache' => -1,
+    'css_class' => '',
     'custom' => 0,
     'delta' => 'sort',
     'i18n_block_language' => array(),
@@ -57,22 +47,10 @@ function cwrc_solr_site_content_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
+      'de_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-      'zen' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'zen',
+        'theme' => 'de_theme',
         'weight' => 0,
       ),
     ),
