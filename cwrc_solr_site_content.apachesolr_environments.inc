@@ -14,7 +14,7 @@ function cwrc_solr_site_content_apachesolr_environments() {
   $environment->api_version = 1;
   $environment->env_id = 'solr';
   $environment->name = 'Drupal site content search';
-  $environment->url = 'http://solr:8080/solr';
+  $environment->url = 'http://localhost:8080/solr';
   $environment->service_class = '';
   $environment->conf = array(
     'apachesolr_direct_commit' => 1,
