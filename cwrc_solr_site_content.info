@@ -1,4 +1,4 @@
-name = CWRC Site Content Solr configuration
+name = CWRC: Site Content Solr Configuration
 description = Configuration for the CWRC Site Content solr instance.
 core = 7.x
 package = CWRC
