@@ -65,8 +65,8 @@ function cwrc_solr_site_content_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'de_theme' => array(
-        'region' => 'dashboard_inactive',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'de_theme',
         'weight' => -1,
       ),
