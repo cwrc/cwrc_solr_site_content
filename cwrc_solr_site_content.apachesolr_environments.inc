@@ -24,8 +24,10 @@ function cwrc_solr_site_content_apachesolr_environments() {
   $environment->index_bundles = array(
     'node' => array(
       0 => 'article',
-      1 => 'page',
-      2 => 'webform',
+      1 => 'event',
+      2 => 'page',
+      3 => 'project',
+      4 => 'webform',
     ),
   );
   $export['solr'] = $environment;
